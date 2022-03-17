@@ -26,7 +26,7 @@ public class ClienteSemSaldoTest {
 	public void SaldoPositivo() {
 		String saldo = "1";
 		ManipulaSaldo manipulaString = new ManipulaSaldo();
-		String validado = manipulaString.manipular(saldo);
+		String validado = manipulaString.manipular(saldo); 
 		Assert.assertEquals("1", validado);
 	}
 
@@ -36,7 +36,7 @@ public class ClienteSemSaldoTest {
 		ManipulaSaldo manipulaString = new ManipulaSaldo();
 		String validado = manipulaString.manipular(saldo);
 		Assert.assertEquals("1", validado);
-	}
+	} 
 
 	@Test
 	public void RecargaSemSucessoNumeroInvalido() {
